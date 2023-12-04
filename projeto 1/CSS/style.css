@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 30px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+button {
+    margin-right: 10px;
+}
+
+.quadro {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block; /* Adicionado para exibir os quadros em linha */
+}
+
+.coordenada-numero {
+    position: absolute;
+    color: black;
+}
+
+.quadradinho {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.linha-horizontal {
+    position: absolute;
+    border-top: 1px dashed rgb(6, 6, 6);
+    width: 100%;
+}
+
+.linha-vertical {
+    position: absolute;
+    border-left: 1px dashed black;
+    height: 100%;
+}
+
+
+
